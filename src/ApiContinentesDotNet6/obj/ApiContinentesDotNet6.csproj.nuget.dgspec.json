@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\ApiContinentesDotNet6\\Domain\\Domain.csproj": {}
+    "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\ApiContinentesDotNet6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\ApiContinentesDotNet6\\Domain\\Domain.csproj": {
+    "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\ApiContinentesDotNet6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\ApiContinentesDotNet6\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\ApiContinentesDotNet6\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\ApiContinentesDotNet6.csproj",
+        "projectName": "ApiContinentesDotNet6",
+        "projectPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\ApiContinentesDotNet6.csproj",
         "packagesPath": "C:\\Users\\anselmo.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\ApiContinentesDotNet6\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -48,9 +48,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Flunt": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[2.0.5, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -65,6 +65,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

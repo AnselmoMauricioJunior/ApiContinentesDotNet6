@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9aPHqCnFsDCWB4J9GER0z/QYAATrqvKFOkppusfvZgjUNpizwgvml88Xn8G9NAhfoOZ8f7aazEWFyHHggVV6YA==",
+  "dgSpecHash": "AIjk9j07u23A35LHQr2XJF2G3m9INJOCBZlETMdD8RlJo9kiZpHjxOoKuivexi2BushX6a7ZxX0NAPCMqhaZUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\ApiContinentesDotNet6\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anselmo.junior\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
   ],
