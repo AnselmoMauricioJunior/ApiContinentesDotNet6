@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "98GwSzwzthGrwwj4/O81hwmdOh2LffPvzU/BcPtnQMbnPxKm+sbjf3Ztn87nO9WcxGDEI9e1HMaRsxXDN6ViyA==",
+  "dgSpecHash": "d4EoEVOKALOXVIiLGl4RZgYYeWDPYxnF4Eab3owhB/ULkKw+S52NVCbZP85CkhYoLXn7Jx5GzGzPwqV9O4mw1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\ApiContinentesDotNet6.csproj",
+  "projectFilePath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anselmo.junior\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\anselmo.junior\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -231,11 +231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\ApiContinentesDotNet6.csproj",
-      "projectName": "ApiContinentesDotNet6",
-      "projectPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\ApiContinentesDotNet6.csproj",
+      "projectUniqueName": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\Api\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\anselmo.junior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\ApiContinentesDotNet6\\obj\\",
+      "outputPath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\src\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
