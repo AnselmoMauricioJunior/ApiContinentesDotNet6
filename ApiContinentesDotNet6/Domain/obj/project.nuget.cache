@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "9aPHqCnFsDCWB4J9GER0z/QYAATrqvKFOkppusfvZgjUNpizwgvml88Xn8G9NAhfoOZ8f7aazEWFyHHggVV6YA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anselmo.junior\\source\\repos\\AnselmoMauricioJunior\\ApiContinentesDotNet6\\ApiContinentesDotNet6\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anselmo.junior\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nugetserver.clearsale.com.br/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
