@@ -62,3 +62,8 @@ C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6
 C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\obj\Debug\net6.0\Api.pdb
 C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\obj\Debug\net6.0\ref\Api.dll
+C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\bin\Debug\net6.0\Flunt.dll
+C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\bin\Debug\net6.0\Domain.dll
+C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\bin\Debug\net6.0\Infra.dll
+C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\bin\Debug\net6.0\Domain.pdb
+C:\Users\anselmo.junior\source\repos\AnselmoMauricioJunior\ApiContinentesDotNet6\src\Api\bin\Debug\net6.0\Infra.pdb

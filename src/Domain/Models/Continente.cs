@@ -7,7 +7,7 @@ public class Continente : Notifiable<Notification>
 {
     public Continente(string nome)
     {
-        Nome = nome; ;
+        Nome = nome; 
 
         var contract = new Contract<Pais>()
             .IsNotNullOrEmpty(Nome, "Nome", "Nome não pode ser nulo nem vazio!");
