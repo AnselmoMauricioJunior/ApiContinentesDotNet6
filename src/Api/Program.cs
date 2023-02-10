@@ -23,5 +23,7 @@ app.UseHttpsRedirection();
 app.MapMethods(ContinenteListar.Route, ContinenteListar.HttpMethods, ContinenteListar.Handler);
 app.MapMethods(ContinenteObter.Route, ContinenteObter.HttpMethods, ContinenteObter.Handler);
 app.MapMethods(ContinenteCadastrar.Route, ContinenteCadastrar.HttpMethods, ContinenteCadastrar.Handler);
+app.MapMethods(ContinenteAtualizar.Route, ContinenteAtualizar.HttpMethods, ContinenteAtualizar.Handler);
+
 
 app.Run();
