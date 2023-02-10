@@ -11,7 +11,7 @@ public class ContinenteCadastrar
 
     public static string Route => "/Continente";
     public static string[] HttpMethods => new string[] { HttpMethod.Post.ToString() };
-    public static Delegate Handler => Action;
+    public static Delegate Handle => Action;
 
     public static IResult Action([FromBody] ContinenteDto continenteDto, IContinenteRepository continenteRepository)
     {

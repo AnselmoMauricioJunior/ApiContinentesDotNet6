@@ -10,7 +10,7 @@ public class ContinenteAtualizar
 {
     public static string Route => "/Continente/{id}";
     public static string[] HttpMethods => new string[] { HttpMethod.Put.ToString() };
-    public static Delegate Handler => Action;
+    public static Delegate Handle => Action;
 
     public static IResult Action([FromRoute] int id, [FromBody] ContinenteDto continenteDto, IContinenteRepository continenteRepository)
     {

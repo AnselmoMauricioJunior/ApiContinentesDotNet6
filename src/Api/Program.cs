@@ -20,10 +20,10 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-app.MapMethods(ContinenteListar.Route, ContinenteListar.HttpMethods, ContinenteListar.Handler);
-app.MapMethods(ContinenteObter.Route, ContinenteObter.HttpMethods, ContinenteObter.Handler);
-app.MapMethods(ContinenteCadastrar.Route, ContinenteCadastrar.HttpMethods, ContinenteCadastrar.Handler);
-app.MapMethods(ContinenteAtualizar.Route, ContinenteAtualizar.HttpMethods, ContinenteAtualizar.Handler);
+app.MapMethods(ContinenteListar.Route, ContinenteListar.HttpMethods, ContinenteListar.Handle);
+app.MapMethods(ContinenteObter.Route, ContinenteObter.HttpMethods, ContinenteObter.Handle);
+app.MapMethods(ContinenteCadastrar.Route, ContinenteCadastrar.HttpMethods, ContinenteCadastrar.Handle);
+app.MapMethods(ContinenteAtualizar.Route, ContinenteAtualizar.HttpMethods, ContinenteAtualizar.Handle);
 
 
 app.Run();

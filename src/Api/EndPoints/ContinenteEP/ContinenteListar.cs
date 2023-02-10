@@ -7,7 +7,7 @@ public class ContinenteListar
 {
     public static string Route => "/Continente";
     public static string[] HttpMethods => new string[] { HttpMethod.Get.ToString() };
-    public static Delegate Handler => Action;
+    public static Delegate Handle => Action;
 
     public static IResult Action(IContinenteRepository continenteRepository)
     {
