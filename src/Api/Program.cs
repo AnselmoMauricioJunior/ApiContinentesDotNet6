@@ -1,9 +1,6 @@
-using Api.Dtos;
 using Api.EndPoints.ContinenteEP;
 using Domain.Interfaces;
-using Domain.Models;
 using Infra.Repositories;
-using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,9 +20,8 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-app.MapMethods(ContinenteListar.Route, ContinenteListar.Methods, ContinenteListar.Handle);
-app.MapMethods(ContinenteObter.Route, ContinenteObter.Methods, ContinenteObter.Handle);
-app.MapMethods(ContinenteCadastrar.Route, ContinenteCadastrar.Methods, ContinenteCadastrar.Handle);
-
+app.MapMethods(ContinenteListar.Route, ContinenteListar.HttpMethods, ContinenteListar.Handler);
+app.MapMethods(ContinenteObter.Route, ContinenteObter.HttpMethods, ContinenteObter.Handler);
+app.MapMethods(ContinenteCadastrar.Route, ContinenteCadastrar.HttpMethods, ContinenteCadastrar.Handler);
 
 app.Run();

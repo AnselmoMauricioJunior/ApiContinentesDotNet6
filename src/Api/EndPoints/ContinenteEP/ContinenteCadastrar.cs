@@ -1,4 +1,5 @@
 ﻿using Api.Dtos;
+using Api.Extensions;
 using Domain.Interfaces;
 using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -9,21 +10,16 @@ public class ContinenteCadastrar
 {
 
     public static string Route => "/Continente";
-    public static string[] Methods => new string[] { HttpMethod.Post.ToString() };
-    public static Delegate Handle => Action;
+    public static string[] HttpMethods => new string[] { HttpMethod.Post.ToString() };
+    public static Delegate Handler => Action;
 
     public static IResult Action([FromBody] ContinenteDto continenteDto, IContinenteRepository continenteRepository)
     {
         var continente = new Continente(continenteDto.nome);
 
         if (!continente.IsValid)
-        {
-            var erros = continente.Notifications
-                            .GroupBy(g => g.Key)
-                            .ToDictionary(g => g.Key, g => g.Select(x => x.Message).ToArray());
+            return Results.ValidationProblem(continente.Errors());
 
-            return Results.ValidationProblem(erros);
-        }
 
         continenteRepository.Cadastrar(continente);
 

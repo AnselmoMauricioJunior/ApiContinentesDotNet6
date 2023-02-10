@@ -6,8 +6,8 @@ namespace Api.EndPoints.ContinenteEP;
 public class ContinenteObter
 {
     public static string Route => "/Continente/{id}";
-    public static string[] Methods => new string[] { HttpMethod.Get.ToString() };
-    public static Delegate Handle => Action;
+    public static string[] HttpMethods => new string[] { HttpMethod.Get.ToString() };
+    public static Delegate Handler => Action;
 
     public static IResult Action([FromRoute] int id, IContinenteRepository continenteRepository)
     {
