@@ -2,6 +2,7 @@
 using Api.Extensions;
 using Domain.Interfaces;
 using Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.EndPoints.ContinenteEP;
@@ -12,6 +13,7 @@ public class ContinenteAtualizar
     public static string[] HttpMethods => new string[] { HttpMethod.Put.ToString() };
     public static Delegate Handle => Action;
 
+    [Authorize]
     public static IResult Action([FromRoute] int id, [FromBody] ContinenteDto continenteDto, IContinenteRepository continenteRepository)
     {
         var continente = new Continente(id, continenteDto.nome);
