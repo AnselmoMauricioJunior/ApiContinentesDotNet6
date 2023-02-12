@@ -5,12 +5,12 @@ namespace Infra.Repositories;
 
 public class ContinenteRepository : IContinenteRepository
 {
-    public void Atualizar(Continente continente)
+    public void Atualizar(Continente continente, string nomeUsuario)
     {
         throw new NotImplementedException();
     }
 
-    public void Cadastrar(Continente continente)
+    public void Cadastrar(Continente continente, string nomeUsuario)
     {
         throw new NotImplementedException();
     }
