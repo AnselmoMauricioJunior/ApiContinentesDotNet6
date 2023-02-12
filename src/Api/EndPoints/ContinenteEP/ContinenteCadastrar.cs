@@ -22,7 +22,7 @@ public class ContinenteCadastrar
         HttpContext http)
     {
         var nomeUsuario = http.User.Claims.First(c => c.Type == ClaimTypes.Name).Value;
-        var continente = new Continente(continenteDto.nome);
+        var continente = continenteDto.ToModel();
 
         if (!continente.IsValid)
             return Results.ValidationProblem(continente.Errors());
